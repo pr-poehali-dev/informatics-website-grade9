@@ -41,8 +41,8 @@ const Header = () => {
           <Link to="/practice" className="text-sm font-medium hover:text-primary transition-colors">
             Практика
           </Link>
-          <Link to="/tests" className="text-sm font-medium hover:text-primary transition-colors">
-            Тесты
+          <Link to="/link" className="text-sm font-medium hover:text-primary transition-colors">
+            Ссылка на сайт
           </Link>
           <Button size="sm" variant="default">
             Войти
@@ -75,11 +75,11 @@ const Header = () => {
                 Практика
               </Link>
               <Link 
-                to="/tests" 
+                to="/link" 
                 className="text-sm font-medium hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Тесты
+                Ссылка на сайт
               </Link>
               <Button size="sm" variant="default" className="w-full">
                 Войти
